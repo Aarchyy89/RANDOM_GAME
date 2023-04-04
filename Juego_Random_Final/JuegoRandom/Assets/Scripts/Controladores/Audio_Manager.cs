@@ -6,7 +6,7 @@ public class Audio_Manager : MonoBehaviour
 {
     public static Audio_Manager instance;
     [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip Backgroundmusic;
+    [SerializeField] private AudioClip clip;
     private void Awake()
     {
 
@@ -14,7 +14,7 @@ public class Audio_Manager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-            AudioClip(Backgroundmusic);
+            AudioClip(clip);
 
         }
         else
