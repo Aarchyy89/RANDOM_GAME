@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
     public TMP_Text timer_txt;
+    public TMP_Text Destroyed_dianas_txt;
 
     public GameObject Finished_game_panel;
     public GameObject Panel_Pause;
@@ -17,6 +18,9 @@ public class LevelManager : MonoBehaviour
 
     public int minutes;
     public int seconds;
+
+    public int Destroyed_Dianas;
+    public int Max_Destroyed_Dianas;
 
     public static LevelManager INSTANCE;
 
@@ -45,6 +49,12 @@ public class LevelManager : MonoBehaviour
         if (tiempo_Total <= 0)
         {
             FinishedGAME();
+        }
+
+        if(Destroyed_Dianas == Max_Destroyed_Dianas && Portal.instance.Finish == true)
+        {
+            Finished_game_panel.SetActive(true);
+            Time.timeScale = 0;
         }
 
     }

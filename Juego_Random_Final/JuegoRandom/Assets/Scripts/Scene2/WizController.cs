@@ -104,7 +104,7 @@ public class WizController : MonoBehaviour
 
     IEnumerator Death()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(0.5f);
 
         GetComponent<Animator>().SetTrigger("Death");
         Time.timeScale = 0;
