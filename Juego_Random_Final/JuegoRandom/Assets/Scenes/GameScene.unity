@@ -801,6 +801,10 @@ PrefabInstance:
       propertyPath: portal5
       value: 
       objectReference: {fileID: 171962715}
+    - target: {fileID: 1875423462197278150, guid: 1d78b42e07683c34f9f009bdeffe958a, type: 3}
+      propertyPath: portal6
+      value: 
+      objectReference: {fileID: 207582923}
     - target: {fileID: 2129198558969945106, guid: 1d78b42e07683c34f9f009bdeffe958a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -13433,7 +13437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1787783013}
-  clip: {fileID: 8300000, guid: 632a87d5508b8a949a7cfdb797d57ae0, type: 3}
+  clip: {fileID: 0}
 --- !u!82 &1787783013
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13444,7 +13448,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6670fd094b89eba4cb08ebe7924079d8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
