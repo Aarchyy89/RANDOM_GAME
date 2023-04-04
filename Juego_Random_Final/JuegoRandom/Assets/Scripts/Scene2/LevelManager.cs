@@ -9,8 +9,11 @@ public class LevelManager : MonoBehaviour
     public TMP_Text timer_txt;
 
     public GameObject Finished_game_panel;
+    public GameObject Panel_Pause;
 
     public float tiempo_Total;
+
+    public bool Pausedgame;
 
     public int minutes;
     public int seconds;
@@ -34,11 +37,32 @@ public class LevelManager : MonoBehaviour
         timer_txt.text = string.Format("{0:00}:{1:00}", minutes,
         seconds);
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseGame();
+        }
+
         if (tiempo_Total <= 0)
         {
             FinishedGAME();
         }
 
+    }
+
+    public void PauseGame()
+    {
+        Pausedgame = !Pausedgame;
+        if (!Pausedgame)
+        {
+            Panel_Pause.SetActive(true);
+            Time.timeScale = 0;
+
+        }
+        else
+        {
+            Panel_Pause.SetActive(false);
+            Time.timeScale = 1;
+        }
     }
 
     public void FinishedGAME()

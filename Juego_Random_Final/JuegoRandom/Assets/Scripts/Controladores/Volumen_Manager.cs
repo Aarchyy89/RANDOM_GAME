@@ -9,10 +9,10 @@ public class Volumen_Manager : MonoBehaviour
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private TMP_Text volumeTextUI;
 
-    public Button save_but;
+    /**public Button save_but;
     public Button MainMenu_but;
     public Button brightness_but;
-    public Button settings_but;
+    public Button settings_but;*/
 
     public GameObject volume_panel;
 
@@ -53,11 +53,11 @@ public class Volumen_Manager : MonoBehaviour
         AudioListener.volume = volumeValue;
     }
 
-    public void Activartodo()
+    /**public void Activartodo()
     {
         volume_panel.SetActive(true);
         MainMenu_but.gameObject.SetActive(false);
         brightness_but.gameObject.SetActive(false);
         settings_but.gameObject.SetActive(false);
-    }
+    }*/
 }
