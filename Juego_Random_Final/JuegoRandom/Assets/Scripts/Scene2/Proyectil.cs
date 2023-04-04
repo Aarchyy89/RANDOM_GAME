@@ -9,7 +9,7 @@ public class Proyectil : MonoBehaviour
     void Start()
     {
         // me destruyo a mi mismo cada 5 segundos 
-        Destroy(gameObject, 5);
+        Destroy(gameObject, 25);
     }
 
     // Update is called once per frame
