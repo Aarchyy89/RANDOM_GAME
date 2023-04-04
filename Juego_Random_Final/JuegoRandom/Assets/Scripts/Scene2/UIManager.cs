@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     public GameObject options_panel;
     public GameObject controls_panel;
     public GameObject Fiished_panel;
+    public GameObject Volume_panel;
 
     public void Resume()
     {
@@ -28,10 +29,20 @@ public class UIManager : MonoBehaviour
         options_panel.SetActive(true);
     }
 
+    public void Volume()
+    {
+        Volume_panel.SetActive(true);
+    }
+
     public void ReturnPause()
     {
         options_panel.SetActive(false);
         controls_panel.SetActive(false);
+    }
+
+    public void ReturnOptions()
+    {
+        Volume_panel.SetActive(false); 
     }
 
     public void Retry()

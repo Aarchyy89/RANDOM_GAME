@@ -24,6 +24,8 @@ public class Portal : MonoBehaviour
 
     public bool Finish = false;
 
+    [SerializeField] private AudioClip clip;
+
     public static Portal instance;
 
     private void Awake()
@@ -34,6 +36,7 @@ public class Portal : MonoBehaviour
     public void Portal2()
     {
         LevelManager.INSTANCE.tiempo_Total += 5f;
+        Audio_Manager.instance.AudioClip(clip);
         portal2.SetActive(true);
         portal.SetActive(false);
     }
@@ -41,6 +44,7 @@ public class Portal : MonoBehaviour
     public void Portal3()
     {
         LevelManager.INSTANCE.tiempo_Total += 10f;
+        Audio_Manager.instance.AudioClip(clip);
         portal3.SetActive(true);
         portal2.SetActive(false);
     }
@@ -48,6 +52,7 @@ public class Portal : MonoBehaviour
     public void Portal4()
     {
         LevelManager.INSTANCE.tiempo_Total += 15f;
+        Audio_Manager.instance.AudioClip(clip);
         portal4.SetActive(true);
         portal3.SetActive(false);
     }
@@ -55,6 +60,7 @@ public class Portal : MonoBehaviour
     public void Portal5()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal5.SetActive(true);
         portal4.SetActive(false);
     }
@@ -62,6 +68,7 @@ public class Portal : MonoBehaviour
     public void Portal6()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal6.SetActive(true);
         portal5.SetActive(false);
     }
@@ -69,6 +76,7 @@ public class Portal : MonoBehaviour
     public void Portal7()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal7.SetActive(true);
         portal6.SetActive(false);
     }
@@ -76,6 +84,7 @@ public class Portal : MonoBehaviour
     public void Portal8()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal8.SetActive(true);
         portal7.SetActive(false);
     }
@@ -83,6 +92,7 @@ public class Portal : MonoBehaviour
     public void Portal9()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal9.SetActive(true);
         portal8.SetActive(false);
     }
@@ -90,6 +100,7 @@ public class Portal : MonoBehaviour
     public void Portal10()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal10.SetActive(true);
         portal9.SetActive(false);
     }
@@ -97,6 +108,7 @@ public class Portal : MonoBehaviour
     public void Portal11()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal11.SetActive(true);
         portal10.SetActive(false);
     }
@@ -104,6 +116,7 @@ public class Portal : MonoBehaviour
     public void Portal12()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal12.SetActive(true);
         portal11.SetActive(false);
     }
@@ -111,6 +124,7 @@ public class Portal : MonoBehaviour
     public void Portal13()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal13.SetActive(true);
         portal12.SetActive(false);
     }
@@ -118,6 +132,7 @@ public class Portal : MonoBehaviour
     public void Portal14()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal14.SetActive(true);
         portal13.SetActive(false);
     }
@@ -125,6 +140,7 @@ public class Portal : MonoBehaviour
     public void Portal15()
     {
         LevelManager.INSTANCE.tiempo_Total += 20f;
+        Audio_Manager.instance.AudioClip(clip);
         portal15.SetActive(true);
         portal14.SetActive(false);
     }
@@ -133,6 +149,7 @@ public class Portal : MonoBehaviour
     public void ActivarMeta()
     {
         LevelManager.INSTANCE.tiempo_Total += 25f;
+        Audio_Manager.instance.AudioClip(clip);
         Meta.SetActive(true);
         portal15.SetActive(false);
     }
@@ -140,6 +157,7 @@ public class Portal : MonoBehaviour
     public void HasLlegadoAMeta()
     {
         Finish = true;
+        Audio_Manager.instance.AudioClip(clip);
         Meta.SetActive(false);
     }
 

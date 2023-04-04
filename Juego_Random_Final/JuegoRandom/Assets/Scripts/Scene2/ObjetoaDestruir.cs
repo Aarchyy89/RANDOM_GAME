@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ObjetoaDestruir : MonoBehaviour
 {
+
+    [SerializeField] private AudioClip clip;
     //para la colision accedo a la void ontrigger y le pregunto quien es el otro 
     /**private void OnTriggerEnter(Collider other)
     {
@@ -19,6 +21,7 @@ public class ObjetoaDestruir : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Proyectil"))
         {
+            Audio_Manager.instance.AudioClip(clip);
             LevelManager.INSTANCE.Destroyed_Dianas += 1;
             LevelManager.INSTANCE.Destroyed_dianas_txt.text = LevelManager.INSTANCE.Destroyed_Dianas + "";
             Destroy(gameObject);

@@ -23,6 +23,8 @@ public class WizController : MonoBehaviour
     public GameObject Lose_panel;
 
     [SerializeField] private Rigidbody rb;
+    [SerializeField] private AudioClip Attack_clip;
+    [SerializeField] private AudioClip Move_clip;
     public Animator anim;
 
     public static WizController instance;
@@ -38,6 +40,7 @@ public class WizController : MonoBehaviour
     {
         if(Throttle)
         {
+            //Audio_Manager.instance.AudioClip(Move_clip);
             rb.AddForce(transform.forward * Engine_Power * Time.deltaTime, ForceMode.VelocityChange);
             anim.SetFloat("VelY", active_pitch);
             anim.SetFloat("VelX", active_roll);
@@ -85,6 +88,7 @@ public class WizController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.L))
         {
             // Método para crear un objetos, en una posicion que le indicamos y con la rotación que le indicamos
+            Audio_Manager.instance.AudioClip(Attack_clip);
             GetComponent<Animator>().SetBool("Attack", true);
             Instantiate(ObjetoACrear, punto_disparo.transform.position, punto_disparo.transform.rotation);
         }
