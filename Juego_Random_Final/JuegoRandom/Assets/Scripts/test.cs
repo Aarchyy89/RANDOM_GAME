@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class test : MonoBehaviour
 {
+    public GameObject Metaaa;
+
+    [SerializeField] private AudioClip clip;
     // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Player"))
+        {
+            HasLlegadoAMeta();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void HasLlegadoAMeta()
     {
-        
+        Portal.instance.Finish = true;
+        Audio_Manager.instance.AudioClip(clip);
+        Metaaa.SetActive(false);
     }
 }

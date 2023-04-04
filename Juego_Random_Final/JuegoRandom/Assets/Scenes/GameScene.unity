@@ -2418,6 +2418,20 @@ MonoBehaviour:
   Meta: {fileID: 444765833}
   Finish: 0
   clip: {fileID: 8300000, guid: 5a9d3a4ae4921c542b5f758125c6ff1a, type: 3}
+--- !u!114 &444765839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444765833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e790c4fde0dd4d9ab520c4e9c2b3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Metaaa: {fileID: 444765833}
+  clip: {fileID: 8300000, guid: 94e66a7890f6d7b4d986878732a0e530, type: 3}
 --- !u!1 &449328125
 GameObject:
   m_ObjectHideFlags: 0
@@ -10221,7 +10235,7 @@ PrefabInstance:
     - target: {fileID: 1875423462197278150, guid: 1d78b42e07683c34f9f009bdeffe958a, type: 3}
       propertyPath: portal15
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1110162232}
     - target: {fileID: 2129198558969945106, guid: 1d78b42e07683c34f9f009bdeffe958a, type: 3}
       propertyPath: m_RootOrder
       value: 13
