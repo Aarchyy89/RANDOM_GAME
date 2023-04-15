@@ -79,7 +79,19 @@ MonoBehaviour:
   portal3: {fileID: 0}
   portal4: {fileID: 0}
   portal5: {fileID: 0}
+  portal6: {fileID: 0}
+  portal7: {fileID: 0}
+  portal8: {fileID: 0}
+  portal9: {fileID: 0}
+  portal10: {fileID: 0}
+  portal11: {fileID: 0}
+  portal12: {fileID: 0}
+  portal13: {fileID: 0}
+  portal14: {fileID: 0}
+  portal15: {fileID: 0}
   Meta: {fileID: 0}
+  Finish: 0
+  clip: {fileID: 0}
 --- !u!1 &5443674047054469009
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +153,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5420527748994615412, guid: 9be1613dc08939248a38810c7a508107, type: 3}
+  - {fileID: 2100000, guid: b0713d5b46cbe4640bb79ec3b3b3989b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
