@@ -9,6 +9,7 @@ public class WizController : MonoBehaviour
     public float roll_power;
     public float yaw_Power;
     public float Engine_Power;
+    public int power_pitch;
 
     private float active_roll, active_pitch, active_yaw;
 
@@ -85,6 +86,16 @@ public class WizController : MonoBehaviour
 
         }
 
+        //MODO TURBO
+        if (Throttle && Input.GetKey(KeyCode.P))
+        {
+            Debug.Log("Hola");
+            rb.AddForce(transform.forward * power_pitch * Time.deltaTime, ForceMode.VelocityChange);
+            //GetComponent<Animator>().SetBool("EstoyCorriendo", true);
+
+        }
+       
+
         if (Input.GetKeyDown(KeyCode.L))
         {
             // Método para crear un objetos, en una posicion que le indicamos y con la rotación que le indicamos
@@ -96,6 +107,8 @@ public class WizController : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("Attack", false);
         }
+
+        
     }
 
     private void OnTriggerEnter(Collider other)
