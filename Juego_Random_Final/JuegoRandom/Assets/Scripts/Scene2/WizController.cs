@@ -89,10 +89,13 @@ public class WizController : MonoBehaviour
         //MODO TURBO
         if (Throttle && Input.GetKey(KeyCode.P))
         {
-            Debug.Log("Hola");
             rb.AddForce(transform.forward * power_pitch * Time.deltaTime, ForceMode.VelocityChange);
-            //GetComponent<Animator>().SetBool("EstoyCorriendo", true);
+            GetComponent<Animator>().SetBool("Run", true);
 
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Run", false);
         }
        
 
