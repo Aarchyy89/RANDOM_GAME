@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 2a3cdfacb966a814793e28209ce88d3e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.018685311, g: 0.003164914, b: 0.000386414, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -185,6 +185,10 @@ PrefabInstance:
     - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
       propertyPath: m_Name
       value: Torre_pincipal_teja (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
@@ -402,6 +406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_pincipal_teja (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
 --- !u!4 &12292667 stripped
@@ -471,6 +479,10 @@ PrefabInstance:
     - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
       propertyPath: m_Name
       value: Torre_pincipal (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
@@ -640,6 +652,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -863,6 +879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muralla (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6417367094888051581, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6634761713100911469, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1072,6 +1092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &68438676 stripped
@@ -1089,6 +1113,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -1160,6 +1188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -1208,9 +1240,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.9000244
       objectReference: {fileID: 0}
+    - target: {fileID: 5932159911079411582, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6933531672656009222, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933531672656009223, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
@@ -1282,6 +1322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_pincipal_teja (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
 --- !u!4 &90613551 stripped
@@ -1343,6 +1387,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -1414,6 +1462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_pincipal (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
 --- !u!4 &102313199 stripped
@@ -1431,6 +1483,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -1536,7 +1592,7 @@ Transform:
   - {fileID: 1110162233}
   - {fileID: 444765834}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &145628970 stripped
 GameObject:
@@ -1677,6 +1733,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -1851,6 +1911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &186733279 stripped
@@ -1947,6 +2011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -2026,6 +2094,10 @@ PrefabInstance:
     - target: {fileID: 6417367094888051581, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
       propertyPath: m_Name
       value: Muralla
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417367094888051581, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6634761713100911469, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
       propertyPath: m_RootOrder
@@ -2265,6 +2337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -2458,7 +2534,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &228070847
 BoxCollider:
@@ -2546,6 +2622,10 @@ PrefabInstance:
     - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
       propertyPath: m_Name
       value: Torre_pincipal (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
@@ -2805,7 +2885,7 @@ Transform:
   - {fileID: 621823049}
   - {fileID: 1658642994}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &264545950
 PrefabInstance:
@@ -2861,6 +2941,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -3152,6 +3236,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -3610,6 +3698,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &355990613 stripped
@@ -3680,6 +3772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_pincipal (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
 --- !u!4 &362405629 stripped
@@ -3697,6 +3793,10 @@ PrefabInstance:
     - target: {fileID: 6417367094888051581, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
       propertyPath: m_Name
       value: Muralla (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417367094888051581, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6634761713100911469, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
       propertyPath: m_RootOrder
@@ -3861,6 +3961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &414703805 stripped
@@ -4007,6 +4111,10 @@ PrefabInstance:
     - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
       propertyPath: m_Name
       value: Torre_pincipal_teja (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
@@ -4631,7 +4739,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a075bb539c11f8646a96cf060cfd73e8, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a075bb539c11f8646a96cf060cfd73e8, type: 3}
       propertyPath: m_LocalScale.x
@@ -4929,7 +5037,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &542421731
 GameObject:
@@ -5340,6 +5448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -5454,6 +5566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &578524169 stripped
@@ -5523,6 +5639,10 @@ PrefabInstance:
     - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
       propertyPath: m_Name
       value: Torre_pincipal_teja
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
@@ -5689,6 +5809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &621823049 stripped
@@ -5853,6 +5977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -5914,6 +6042,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -5984,118 +6116,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2129198558969945106, guid: 1d78b42e07683c34f9f009bdeffe958a, type: 3}
   m_PrefabInstance: {fileID: 778730197}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &686374807
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 686374811}
-  - component: {fileID: 686374810}
-  - component: {fileID: 686374809}
-  - component: {fileID: 686374808}
-  - component: {fileID: 686374812}
-  m_Layer: 0
-  m_Name: Suelo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &686374808
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686374807}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &686374809
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686374807}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: b0adb08cddbafd74eb78ea58865ee8d6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &686374810
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686374807}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &686374811
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686374807}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2816, y: 2.2816, z: 2.2816}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &686374812
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686374807}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.999999, y: 2.2204459e-16, z: 9.999999}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &690863419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6109,7 +6129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3156926089831103121, guid: efd3c8c7288f47c4bb617166ad9ab08b, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3156926089831103121, guid: efd3c8c7288f47c4bb617166ad9ab08b, type: 3}
       propertyPath: m_LocalScale.x
@@ -6220,6 +6240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &703990229 stripped
@@ -6237,6 +6261,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -6527,6 +6555,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -11358,6 +11390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -11406,9 +11442,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.9000244
       objectReference: {fileID: 0}
+    - target: {fileID: 5932159911079411582, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6933531672656009222, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933531672656009223, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
@@ -11427,6 +11471,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -11599,6 +11647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -11713,6 +11765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &796539296 stripped
@@ -11772,7 +11828,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &828476841
 PrefabInstance:
@@ -11912,6 +11968,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -12026,6 +12086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &843610787 stripped
@@ -12109,7 +12173,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &864180422
 PrefabInstance:
@@ -12165,6 +12229,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -12228,6 +12296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &866906622 stripped
@@ -12245,6 +12317,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -12368,6 +12444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_pincipal (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
 --- !u!4 &907596718 stripped
@@ -12385,6 +12465,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -12551,6 +12635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -12672,6 +12760,10 @@ PrefabInstance:
     - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
       propertyPath: m_Name
       value: Torre_pincipal_teja (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
@@ -12826,6 +12918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -12936,6 +13032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &1018908017 stripped
@@ -13035,6 +13135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &1044717726 stripped
@@ -13051,7 +13155,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0183e498dfece934e9c1e30ba96d2643, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0183e498dfece934e9c1e30ba96d2643, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13527,6 +13631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &1086134016 stripped
@@ -13799,6 +13907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -13994,6 +14106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_pincipal
       objectReference: {fileID: 0}
+    - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
 --- !u!4 &1219287736 stripped
@@ -14133,6 +14249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &1311775044 stripped
@@ -14150,6 +14270,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -14400,6 +14524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &1324304676 stripped
@@ -14417,6 +14545,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -15030,6 +15162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_pincipal_teja (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
 --- !u!4 &1385277922 stripped
@@ -15570,6 +15706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -15782,7 +15922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3156926089831103121, guid: efd3c8c7288f47c4bb617166ad9ab08b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3156926089831103121, guid: efd3c8c7288f47c4bb617166ad9ab08b, type: 3}
       propertyPath: m_LocalScale.x
@@ -15900,6 +16040,10 @@ PrefabInstance:
     - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
       propertyPath: m_Name
       value: Torre_pincipal (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
@@ -16041,6 +16185,10 @@ PrefabInstance:
     - target: {fileID: 6417367094888051581, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
       propertyPath: m_Name
       value: Muralla (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417367094888051581, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6634761713100911469, guid: 6caa443bf192b6c428ed6aab45752092, type: 3}
       propertyPath: m_RootOrder
@@ -16324,6 +16472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &1536084362 stripped
@@ -16407,7 +16559,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1630642267
 PrefabInstance:
@@ -16463,6 +16615,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -16702,6 +16858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre3 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
 --- !u!4 &1655919796 stripped
@@ -16763,6 +16923,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -16928,6 +17092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -16997,6 +17165,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -17379,7 +17551,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1795076392
 GameObject:
@@ -17537,6 +17709,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -18018,6 +18194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -18348,6 +18528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -18417,6 +18601,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -18540,6 +18728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_pincipal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882682381963417047, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6243fb0d8d7fe72449121eb21b8bd8fd, type: 3}
 --- !u!4 &2032262405 stripped
@@ -18557,6 +18749,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -18637,6 +18833,10 @@ PrefabInstance:
     - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_Name
       value: Torre2 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436380087631102443, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4895867662753190857, guid: f5f93ff8734c7f04eb7aae6edd210e27, type: 3}
       propertyPath: m_RootOrder
@@ -18751,6 +18951,10 @@ PrefabInstance:
     - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
       propertyPath: m_Name
       value: Torre3 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975313011041328999, guid: b250c66cff721674c975aa3111e84de1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b250c66cff721674c975aa3111e84de1, type: 3}
@@ -19073,6 +19277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre_pincipal_teja (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6244568483313753044, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8509227cbf78a4244b100130eef18a73, type: 3}
 --- !u!4 &2109670526 stripped
@@ -19188,7 +19396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3156926089831103121, guid: efd3c8c7288f47c4bb617166ad9ab08b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3156926089831103121, guid: efd3c8c7288f47c4bb617166ad9ab08b, type: 3}
       propertyPath: m_LocalPosition.x
