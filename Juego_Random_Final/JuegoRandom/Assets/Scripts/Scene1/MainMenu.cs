@@ -13,6 +13,10 @@ public class MainMenu : MonoBehaviour
     public GameObject Volumen_panel;
     public GameObject Brillo_panel;
 
+    public static MainMenu instance;
+
+    
+
 
     //PANEL MAIN MENU
     public void Jugar()
