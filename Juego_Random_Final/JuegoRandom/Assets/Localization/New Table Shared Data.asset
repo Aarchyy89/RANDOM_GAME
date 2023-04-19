@@ -91,6 +91,18 @@ MonoBehaviour:
     m_Key: Save
     m_Metadata:
       m_Items: []
+  - m_Id: 5453084191850496
+    m_Key: REANUDAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5453112549539840
+    m_Key: VICTORY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5453126634012672
+    m_Key: DEFEAT
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

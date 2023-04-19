@@ -94,6 +94,18 @@ MonoBehaviour:
     m_Localized: Save
     m_Metadata:
       m_Items: []
+  - m_Id: 5453084191850496
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5453112549539840
+    m_Localized: Victory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5453126634012672
+    m_Localized: Defeat
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

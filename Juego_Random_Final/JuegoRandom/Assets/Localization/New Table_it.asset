@@ -90,6 +90,18 @@ MonoBehaviour:
     m_Localized: Salvare
     m_Metadata:
       m_Items: []
+  - m_Id: 5453126634012672
+    m_Localized: Sconfitta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5453112549539840
+    m_Localized: Vittoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5453084191850496
+    m_Localized: Riprendere
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
