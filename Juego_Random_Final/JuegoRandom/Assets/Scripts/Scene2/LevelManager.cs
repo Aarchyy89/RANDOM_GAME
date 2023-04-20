@@ -59,10 +59,8 @@ public class LevelManager : MonoBehaviour
 
         if(Destroyed_Dianas == Max_Destroyed_Dianas && Portal.instance.Finish == true)
         {
-            Audio_Manager.instance.audioSource.Stop();
             Audio_Manager.instance.AudioClip(Victory);
-            Win_panel.SetActive(true);
-            Time.timeScale = 0;
+            StartCoroutine(Win());
         }
 
         if(Input.GetKeyDown(KeyCode.K))
@@ -97,6 +95,18 @@ public class LevelManager : MonoBehaviour
         Lose_panel.SetActive(true);
         Time.timeScale = 0;
     }
-    
-    
+
+    IEnumerator Win()
+    {
+
+        yield return new WaitForSeconds(0.1f);
+
+        Audio_Manager.instance.audioSource.Stop();
+
+
+        Audio_Manager.instance.AudioClip(Defeat);
+        Time.timeScale = 0;
+        Win_panel.SetActive(true);
+    }
+
 }
