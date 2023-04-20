@@ -106,6 +106,30 @@ MonoBehaviour:
     m_Localized: Rependre
     m_Metadata:
       m_Items: []
+  - m_Id: 5769642554392576
+    m_Localized: "\xC9trangler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769664058589184
+    m_Localized: Tirer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769740772409344
+    m_Localized: Rouleau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769785240420352
+    m_Localized: Tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769801300410368
+    m_Localized: "Turbo\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797439607898112
+    m_Localized: Direction
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -10,7 +10,10 @@ public class UIManager : MonoBehaviour
     public GameObject pause_panel;
     public GameObject options_panel;
     public GameObject controls_panel;
-    public GameObject Fiished_panel;
+    public GameObject Bright_panel;
+    public GameObject Sound_panel;
+    public GameObject Victory_panel;
+    public GameObject Lose_Panel;
     public GameObject Volume_panel;
 
     public void Resume()
@@ -23,15 +26,19 @@ public class UIManager : MonoBehaviour
     {
         controls_panel.SetActive(true); 
     }
-
-    public void Options()
+    public void Brillo()
     {
-        options_panel.SetActive(true);
+        Bright_panel.SetActive(true);
     }
 
     public void Volume()
     {
         Volume_panel.SetActive(true);
+    }
+
+    public void Options()
+    {
+        options_panel.SetActive(true);
     }
 
     public void ReturnPause()
@@ -42,12 +49,19 @@ public class UIManager : MonoBehaviour
 
     public void ReturnOptions()
     {
-        Volume_panel.SetActive(false); 
+        Volume_panel.SetActive(false);
+        Bright_panel.SetActive(false);
+        controls_panel.SetActive(false);
     }
 
     public void Retry()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(1);
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

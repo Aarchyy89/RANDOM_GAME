@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,8 +10,10 @@ public class LevelManager : MonoBehaviour
     public TMP_Text timer_txt;
     public TMP_Text Destroyed_dianas_txt;
 
-    public GameObject Finished_game_panel;
+    public GameObject Lose_panel;
+    public GameObject Win_panel;
     public GameObject Panel_Pause;
+    public GameObject Meta;
 
     public float tiempo_Total;
 
@@ -53,8 +56,15 @@ public class LevelManager : MonoBehaviour
 
         if(Destroyed_Dianas == Max_Destroyed_Dianas && Portal.instance.Finish == true)
         {
-            Finished_game_panel.SetActive(true);
+            Win_panel.SetActive(true);
             Time.timeScale = 0;
+        }
+
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            Meta.SetActive(true);
+            Destroyed_Dianas += 3;
+            Destroyed_dianas_txt.text = Destroyed_Dianas + "";
         }
 
     }
@@ -77,7 +87,9 @@ public class LevelManager : MonoBehaviour
 
     public void FinishedGAME()
     {
-        Finished_game_panel.SetActive(true);
+        Lose_panel.SetActive(true);
         Time.timeScale = 0;
     }
+    
+    
 }

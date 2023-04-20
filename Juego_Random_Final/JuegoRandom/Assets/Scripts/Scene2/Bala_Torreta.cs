@@ -11,6 +11,7 @@ public class Bala_Torreta : MonoBehaviour
     public void Seek(Transform _target)
     {
         target = _target;
+        Destroy(gameObject, 5);
     }
 
     private void Update()
@@ -35,6 +36,7 @@ public class Bala_Torreta : MonoBehaviour
 
     public void HitTarget()
     {
+        LevelManager.INSTANCE.FinishedGAME();
         Debug.Log("Hit");
         Destroy(gameObject);    
     }

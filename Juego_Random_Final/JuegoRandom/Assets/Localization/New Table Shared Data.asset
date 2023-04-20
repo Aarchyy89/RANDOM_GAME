@@ -103,6 +103,30 @@ MonoBehaviour:
     m_Key: DEFEAT
     m_Metadata:
       m_Items: []
+  - m_Id: 5769642554392576
+    m_Key: Throttle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769664058589184
+    m_Key: Shoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769740772409344
+    m_Key: Roll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769785240420352
+    m_Key: Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769801300410368
+    m_Key: Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797439607898112
+    m_Key: Direction
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

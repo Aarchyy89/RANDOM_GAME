@@ -102,6 +102,30 @@ MonoBehaviour:
     m_Localized: Riprendere
     m_Metadata:
       m_Items: []
+  - m_Id: 5769642554392576
+    m_Localized: Strozzare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769664058589184
+    m_Localized: Sparare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769740772409344
+    m_Localized: Rotolo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769785240420352
+    m_Localized: Girare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769801300410368
+    m_Localized: Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797439607898112
+    m_Localized: Direzione
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -5,7 +5,8 @@ using UnityEngine;
 public class Torreta : MonoBehaviour
 {
     public Transform target;
-    public Transform part_Torotate;
+    public Transform part_Torotate; 
+    [SerializeField] private AudioClip Shoot_clip;
 
     [Header("Attributes")]
     public float range;
@@ -85,7 +86,9 @@ public class Torreta : MonoBehaviour
         GameObject bulletGO = (GameObject)Instantiate(bullet, fire_Point.position, fire_Point.rotation);
         Bala_Torreta buullet = bulletGO.GetComponent<Bala_Torreta>();
 
-        if(buullet != null)
+        Audio_Manager.instance.AudioClip(Shoot_clip);
+
+        if (buullet != null)
         {
             buullet.Seek(target);
         }

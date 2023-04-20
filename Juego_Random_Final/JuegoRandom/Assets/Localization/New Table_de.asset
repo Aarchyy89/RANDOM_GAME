@@ -106,6 +106,30 @@ MonoBehaviour:
     m_Localized: Fortsetzen
     m_Metadata:
       m_Items: []
+  - m_Id: 5769642554392576
+    m_Localized: Drosseln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769664058589184
+    m_Localized: "Schie\xDFen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769740772409344
+    m_Localized: Rollen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769785240420352
+    m_Localized: Drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769801300410368
+    m_Localized: Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797439607898112
+    m_Localized: Richtung
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

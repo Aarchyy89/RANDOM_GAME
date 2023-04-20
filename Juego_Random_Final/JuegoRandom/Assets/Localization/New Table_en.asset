@@ -106,6 +106,30 @@ MonoBehaviour:
     m_Localized: Defeat
     m_Metadata:
       m_Items: []
+  - m_Id: 5769642554392576
+    m_Localized: Throttle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769664058589184
+    m_Localized: Shoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769740772409344
+    m_Localized: Roll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769785240420352
+    m_Localized: Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5769801300410368
+    m_Localized: Turbo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797439607898112
+    m_Localized: Direction
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
