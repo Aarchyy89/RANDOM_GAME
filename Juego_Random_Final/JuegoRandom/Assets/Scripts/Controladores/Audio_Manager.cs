@@ -5,7 +5,7 @@ using UnityEngine;
 public class Audio_Manager : MonoBehaviour
 {
     public static Audio_Manager instance;
-    [SerializeField] private AudioSource audioSource;
+    public AudioSource audioSource;
     [SerializeField] private AudioClip clip;
     private void Awake()
     {

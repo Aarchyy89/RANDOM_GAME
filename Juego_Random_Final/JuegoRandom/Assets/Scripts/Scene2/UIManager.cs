@@ -56,12 +56,14 @@ public class UIManager : MonoBehaviour
 
     public void Retry()
     {
+        Audio_Manager.instance.audioSource.Play();
         Time.timeScale = 1;
         SceneManager.LoadScene(1);
     }
 
     public void MainMenu()
     {
+        Audio_Manager.instance.audioSource.Play();
         SceneManager.LoadScene(0);
     }
 }

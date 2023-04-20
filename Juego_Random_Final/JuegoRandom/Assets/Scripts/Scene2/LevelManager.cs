@@ -15,6 +15,9 @@ public class LevelManager : MonoBehaviour
     public GameObject Panel_Pause;
     public GameObject Meta;
 
+    [SerializeField] private AudioClip Defeat;
+    [SerializeField] private AudioClip Victory;
+
     public float tiempo_Total;
 
     public bool Pausedgame;
@@ -56,6 +59,8 @@ public class LevelManager : MonoBehaviour
 
         if(Destroyed_Dianas == Max_Destroyed_Dianas && Portal.instance.Finish == true)
         {
+            Audio_Manager.instance.audioSource.Stop();
+            Audio_Manager.instance.AudioClip(Victory);
             Win_panel.SetActive(true);
             Time.timeScale = 0;
         }
@@ -87,6 +92,8 @@ public class LevelManager : MonoBehaviour
 
     public void FinishedGAME()
     {
+        Audio_Manager.instance.audioSource.Stop();
+        Audio_Manager.instance.AudioClip(Defeat);
         Lose_panel.SetActive(true);
         Time.timeScale = 0;
     }

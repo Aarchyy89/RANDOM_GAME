@@ -5,17 +5,18 @@ using UnityEngine;
 public class WizController : MonoBehaviour
 {
     [Header("--- Speeds ---")]
-    public float pitch_Power;
-    public float roll_power;
-    public float yaw_Power;
     public float Engine_Power;
-    public int power_pitch;
+    public float Turn_vel;
+    public float vertical_dir_power;
+    public float roll_power;
+    
 
-    private float active_roll, active_pitch, active_yaw;
+    private float active_roll, active_vertical_dir, active_turn;
 
     [Header("--- Accelerations ---")]
-    public float forward_Acceleration;
-    public float roll_Acceleration;
+    //public float forward_Acceleration;
+    //public float roll_Acceleration;
+    public int power_pitch;
     public float Yaw_Acceleration;
 
     [Header("--- Emptys ---")]
@@ -26,6 +27,7 @@ public class WizController : MonoBehaviour
     [SerializeField] private Rigidbody rb;
     [SerializeField] private AudioClip Attack_clip;
     [SerializeField] private AudioClip Move_clip;
+    [SerializeField] private AudioClip Defeat;
     public Animator anim;
 
     public static WizController instance;
@@ -43,14 +45,14 @@ public class WizController : MonoBehaviour
         {
             //Audio_Manager.instance.AudioClip(Move_clip);
             rb.AddForce(transform.forward * Engine_Power * Time.deltaTime, ForceMode.VelocityChange);
-            anim.SetFloat("VelY", active_pitch);
-            anim.SetFloat("VelX", active_roll);
+            //anim.SetFloat("VelY", active_vertical_dir);
+            //anim.SetFloat("VelX", active_roll);
 
             //transform.position += transform.up * Engine_Power * Time.deltaTime;
 
-            active_pitch = Input.GetAxisRaw("Vertical") * pitch_Power;
+            active_vertical_dir = Input.GetAxisRaw("Vertical") * vertical_dir_power;
             active_roll = Input.GetAxisRaw("Horizontal") * roll_power;
-            active_yaw = Input.GetAxisRaw("Yaw") * yaw_Power * Yaw_Acceleration;
+            active_turn = Input.GetAxisRaw("Yaw") * Turn_vel * Yaw_Acceleration;
 
             /*
             transform.Rotate(active_pitch * pitch_Power * forward_Acceleration * Time.deltaTime,
@@ -60,19 +62,19 @@ public class WizController : MonoBehaviour
 
 
             transform.Rotate(transform.forward * active_roll * Time.deltaTime);
-            transform.Rotate(transform.right * active_pitch * Time.deltaTime);
-            transform.Rotate(transform.up * active_yaw * Time.deltaTime);
+            transform.Rotate(transform.right * active_vertical_dir * Time.deltaTime);
+            transform.Rotate(transform.up * active_turn * Time.deltaTime);
 
             
 
         }
         else
         {
-            
 
-            active_pitch = Input.GetAxisRaw("Vertical") * pitch_Power/2;
+
+            active_vertical_dir = Input.GetAxisRaw("Vertical") * vertical_dir_power / 2;
             active_roll = Input.GetAxisRaw("Horizontal") * roll_power/2;
-            active_yaw = Input.GetAxisRaw("Yaw") * yaw_Power/2;
+            active_turn = Input.GetAxisRaw("Yaw") * Turn_vel/2;
 
             /**
             transform.Rotate(active_pitch * pitch_Power * Time.deltaTime,
@@ -81,8 +83,8 @@ public class WizController : MonoBehaviour
             */
 
             transform.Rotate(transform.forward * active_roll * Time.deltaTime);
-            transform.Rotate(transform.right * active_pitch * Time.deltaTime);
-            transform.Rotate(transform.up * active_yaw * Time.deltaTime);
+            transform.Rotate(transform.right * active_vertical_dir * Time.deltaTime);
+            transform.Rotate(transform.up * active_turn * Time.deltaTime);
 
         }
 
@@ -118,15 +120,20 @@ public class WizController : MonoBehaviour
     {
         if (other.CompareTag("Suelo"))
         {
+            GetComponent<Animator>().SetTrigger("Death");
             StartCoroutine(Death());
         }
     }
 
     IEnumerator Death()
     {
+        
         yield return new WaitForSeconds(2f);
 
-        GetComponent<Animator>().SetTrigger("Death");
+        Audio_Manager.instance.audioSource.Stop();
+        
+        
+        Audio_Manager.instance.AudioClip(Defeat);
         Time.timeScale = 0;
         Lose_panel.SetActive(true);
     }
