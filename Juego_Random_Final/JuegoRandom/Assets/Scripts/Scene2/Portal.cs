@@ -154,13 +154,6 @@ public class Portal : MonoBehaviour
         portal15.SetActive(false);
     }
 
-    public void HasLlegadoAMeta()
-    {
-        Finish = true;
-        Audio_Manager.instance.AudioClip(clip);
-        Meta.SetActive(false);
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
@@ -180,7 +173,6 @@ public class Portal : MonoBehaviour
             Portal14();
             Portal15();
             ActivarMeta();
-            HasLlegadoAMeta();
         }
     }
 
