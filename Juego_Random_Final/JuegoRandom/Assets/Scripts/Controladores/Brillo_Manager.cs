@@ -9,7 +9,6 @@ public class Brillo_Manager : MonoBehaviour
 {
     public GameObject brightness_panel;
     public Slider SliderBrightness;
-    public TextMeshProUGUI titulo;
 
     public PostProcessProfile brightness;
     public PostProcessLayer layer;
@@ -29,7 +28,6 @@ public class Brillo_Manager : MonoBehaviour
     {
         brightness.TryGetSettings(out exposure);
         AdjustBrightness();
-        titulo.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -46,6 +44,5 @@ public class Brillo_Manager : MonoBehaviour
     public void Brillo()
     {
         brightness_panel.SetActive(true);
-        titulo.gameObject.SetActive(true);
     }
 }

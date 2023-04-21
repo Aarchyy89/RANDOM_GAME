@@ -15,8 +15,6 @@ public class MainMenu : MonoBehaviour
 
     public static MainMenu instance;
 
-    
-
 
     //PANEL MAIN MENU
     public void Jugar()
