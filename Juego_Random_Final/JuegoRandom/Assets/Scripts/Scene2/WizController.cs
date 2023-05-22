@@ -43,30 +43,13 @@ public class WizController : MonoBehaviour
     {
         if(Throttle)
         {
-            //Audio_Manager.instance.AudioClip(Move_clip);
-            //rb.AddForce(transform.forward * Engine_Power * Time.deltaTime, ForceMode.VelocityChange);
-            //anim.SetFloat("VelY", active_vertical_dir);
-            //anim.SetFloat("VelX", active_roll);
-
             transform.position += transform.forward * Engine_Power * Time.deltaTime;
 
             active_vertical_dir = Input.GetAxisRaw("Vertical");
             active_roll = Input.GetAxisRaw("Horizontal");
-            //active_turn = Input.GetAxisRaw("Yaw") * Turn_vel * Yaw_Acceleration;
-
-            /*
-            transform.Rotate(active_pitch * pitch_Power * forward_Acceleration * Time.deltaTime,
-                active_yaw * yaw_Power * Yaw_Acceleration * Time.deltaTime,
-                -active_roll * roll_power * roll_Acceleration * Time.deltaTime, Space.Self);
-            */
-
 
             transform.Rotate(Vector3.forward * (100 * Time.deltaTime * active_roll));
             transform.Rotate(Vector3.right * (80 * Time.deltaTime * active_vertical_dir));
-            //transform.Rotate(transform.right * active_vertical_dir * Time.deltaTime);
-            //transform.Rotate(transform.up * active_turn * Time.deltaTime);
-
-
 
         }
         else
@@ -75,24 +58,9 @@ public class WizController : MonoBehaviour
 
             active_vertical_dir = Input.GetAxisRaw("Vertical");
             active_roll = Input.GetAxisRaw("Horizontal");
-            //active_turn = Input.GetAxisRaw("Yaw") * Turn_vel/2;
-
-            /**
-            transform.Rotate(active_pitch * pitch_Power * Time.deltaTime,
-                active_yaw * yaw_Power * Time.deltaTime,
-                -active_roll * roll_power * Time.deltaTime, Space.Self);
-            
-             */
 
             transform.Rotate(Vector3.forward * (100  * Time.deltaTime * active_roll));
             transform.Rotate(Vector3.right * (80 * Time.deltaTime * active_vertical_dir));
-            //transform.Rotate((transform.forward * active_roll * Time.deltaTime) + (transform.right * active_vertical_dir * Time.deltaTime));
-
-
-
-            //transform.Rotate(transform.right * active_vertical_dir * Time.deltaTime);
-            //transform.Rotate(transform.up * active_turn * Time.deltaTime);
-
         }
 
         //MODO TURBO
